@@ -12,8 +12,8 @@ imaplib._MAXLINE = 10000000  # Increase to 10 MB (adjust as needed)
 
 # IMAP server settings
 imap_server = 'imap.zoho.com'
-username = 'konnect@ahadicorp.com'
-password = 'K@nn3ctL@v3'
+username = ''#enter email
+password = ''#enter password
 
 # Open the CSV file in append mode
 with open('fetched_emails.csv', 'a', newline='') as csvfile:
